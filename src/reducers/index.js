@@ -1,8 +1,13 @@
 import { combineReducers } from 'redux';
 import home from './home'
 
-const rootReducer = combineReducers({
-	home,
-});
+
+function getReducers(){
+	return({
+		home,
+	})
+}
+
+const rootReducer = combineReducers(getReducers());
 
 export default rootReducer;

@@ -21,7 +21,6 @@ export const styles = StyleSheet.create({
 	    backgroundColor: '#3B6B81',
 	},
 	leftBar: {
-	    flex: 1,
 	    width: 100,
 	    height: screenHeight - 64,
 	    backgroundColor: 'rgba(59, 107, 129, 1)',
@@ -36,6 +35,7 @@ export const styles = StyleSheet.create({
 	  	height: 60,
 	  	borderRadius: 10,
 	  	justifyContent: 'space-between',
+	  	marginTop: 1,
 	},
 	whiteText: {
 	  	color:'white',
@@ -48,6 +48,15 @@ export const styles = StyleSheet.create({
 	  	justifyContent:'center',
 	  	textAlign:'center',
 	  	marginTop: 10,
-	}
+	},
+});
 
+export const homeScreenStlyes = StyleSheet.create({
+	container: {
+	    flex: 1,
+	    flexDirection: 'column',
+	},
+	image: {
+		flex: 1,
+	}
 });

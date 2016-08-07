@@ -8,10 +8,5 @@ const loggerMiddleware = createLogger()
 export default function configureStore(preloadedState) {
   return createStore(
     rootReducer,
-    preloadedState,
-    applyMiddleware(
-      thunkMiddleware,
-      loggerMiddleware
-    )
   )
 }

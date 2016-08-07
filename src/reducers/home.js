@@ -24,19 +24,19 @@ export default function getSelectedTab(state = initialState, action) {
 		case 'ADMISSIONS':{
 			return({
 				...state,
-				selectedTab: 1,
+				selectedTab: 3,
 			});
 		}
 		case 'CONTACTUS':{
 			return({
 				...state,
-				selectedTab: 1,
+				selectedTab: 4,
 			});
 		}
 		case 'BLOG':{
 			return({
 				...state,
-				selectedTab: 1,
+				selectedTab: 5,
 			});
 		}
 		default:
